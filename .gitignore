@@ -1,0 +1,18 @@
+# ROS 2 構建產物
+build/
+install/
+log/
+
+# Python 編譯產物
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 系統與 IDE 設定
+.vscode/
+.idea/
+.DS_Store
+
+# 專案特定忽略
+*.user
