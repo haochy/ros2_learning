@@ -17,13 +17,19 @@ git clone https://github.com/ros/ros_tutorials.git -b humble
 To set up this workspace and compile the packages:
 1. Create Workspace:
 ```
-mkdir ~/ros2_ws
+mkdir -p ~/ros2_ws/src
+```
+```
+cd ~/ros2_ws/src
 ```
 2. Clone Repository:
 ```
 git clone https://github.com/haochy/ros2_learning.git
 ```
 3. Install Dependencies:
+```
+cd ~/ros2_ws
+```
 ```
 rosdep install -i --from-path src --rosdistro humble -y
 ```
